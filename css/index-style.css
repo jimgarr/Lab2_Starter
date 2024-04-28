@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: color(display-p3 .25 0.4 .3 / .1); 
+    color: #3f3e46; 
+    line-height: 1.5; 
+    padding: 20px 20px 20px 20px;
+
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+main {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;  */
+    justify-content: center; 
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(255, 255, 255);
+    line-height: 2.0;
+    /* text-align: center; */
+}
+
+header, footer {
+    background: color-mix(in srgb, color percentage, color percentage);
+    color: black;
+    padding: 10px 20px; 
+    text-align: center; 
+    font-size: large;
+}
+
+:root {
+    --black-color: rgb(0, 0, 0);
+}
+
+/* -------------------- Main/Meeting Agenda ------------------ */
+
+h1 {
+    text-align: center;
+    color: var(--black-color, black);
+}
+
